@@ -63,8 +63,8 @@ public class TabPageViewController: UIPageViewController {
     override public func viewWillDisappear(animated: Bool) {
         super.viewWillDisappear(animated)
 
-        navigationController?.navigationBar.shadowImage = nil
-        navigationController?.navigationBar.setBackgroundImage(nil, forBarMetrics: .Default)
+        //navigationController?.navigationBar.shadowImage = nil
+        //navigationController?.navigationBar.setBackgroundImage(nil, forBarMetrics: .Default)
     }
 }
 
